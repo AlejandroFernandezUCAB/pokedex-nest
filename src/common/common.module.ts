@@ -5,4 +5,6 @@ import { AxiosAdapter } from './adapters/axios.adapter';
 	providers: [AxiosAdapter],
 	exports: [AxiosAdapter],
 })
-export class CommonModule {}
+export class CommonModule {
+	
+}
